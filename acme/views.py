@@ -9,3 +9,4 @@ def handler404(request, exception):
 
 def handler500(request, exception=None):
 	return render(request, 'errors/500.html', {'error':exception}, status=500)
+	#handler 500
