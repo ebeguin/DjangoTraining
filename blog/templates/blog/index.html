@@ -1,3 +1,6 @@
+{% extends '\base.html' %}
+
+{% block content %} 
 <h1>Blog ({{posts|length}}) blog</h1>
 
 <ul>
@@ -5,3 +8,4 @@
 	<li>{{post}}</li>
 {% endfor %}
 </ul>
+{% endblock %}
