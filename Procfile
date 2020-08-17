@@ -1,1 +1,1 @@
-web: gunicorn acme.wsgi --log-file 
+web: gunicorn acme.wsgi 
