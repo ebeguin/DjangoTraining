@@ -4,7 +4,7 @@ from .settings import *
 DEBUG = False
 TEMPLATE_DEBUG=False
 
-DATAABASE['default'] = dj_database_url.config()
+DATABASES['default'] = dj_database_url.config()
 
 ALLOWED_HOSTS = ["ace-tdn.herokuapp.com"]
 
